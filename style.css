@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&family=Outfit:wght@100..900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Rajdhani", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+  max-width: 1305px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.first-section{
+    position: relative;
+    padding: 20px 40px ;
+    display: grid;
+    
+}
+
+.title-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;  
+   
+  
+}
+
+.main-title{
+    position: relative;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    width: 100%;
+   
+}
+
+.logo1 {
+  border: 2px solid black;
+  padding-block: 28px;
+  border-top: none;   /* üst sərhədi silir */
+  border-bottom: none; /* alt sərhədi silir */
+}
+
+.logo{
+    /* position: absolute; */
+    padding: 10px 10px;
+    right: 20px;
+    background: black ;
+    color: white;
+    font-weight: 200;
+    font-size: 18px;
+     letter-spacing: 2px;
+     text-transform: uppercase;
+     align-items: center;
+     border: 2px solid black;
+}
+
+.content{
+        display: flex;
+        margin-block: 30px;
+    }
+
+.left-side{
+    max-width: 500px;
+
+}
+
+.subtile {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 24px;
+        text-transform: uppercase;
+         line-height: 1.2;
+         padding-bottom: 30px;
+    }
+
+
+.mini-menu {
+  margin-top:97px;
+}
+.mini-menu a{
+        display: flex;
+        text-decoration: none;
+        color: black;
+        align-items: center;
+        gap: 300px;
+        margin: 30px 0;
+       
+
+ }
+
+.mini-menu .line {
+  display: inline-block;
+  width: 30px;
+  height: 1.6px;
+  background: black;
+}
+.description{
+      margin-top: 30px;
+        font-family: "Rajdhani", sans-serif;
+        font-size: 18px;
+        
+    }
+  
+
+@media (min-width:900px){
+    .content {
+        flex-direction: row;
+ }
+    }
+
+ 
+
+ .right-side{
+        position: relative;
+    }
+
+.right-side img{
+    width: 100%;
+
+    }
+
+.btn-wrap {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background: black;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 40px;
+}
+
+.btn-black {
+  background: black;
+  color: white;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  position: relative;
+  z-index: 2; /* həmişə üstə çıxar */
+  display: inline-block;
+}
+
+.btn-white {
+  background: white;
+  position: absolute;
+  top: 4px;    /* bir az aşağı sürüşdür */
+  left: 4px;   /* bir az sağa sürüşdür */
+  width: 100%;
+  height: 100%;
+  z-index: 1;  /* qaranın altında qalır */
+}
+
+
+.container{
+    background:black;
+    color: white;
+    padding: 80px 24px;
+    display: flex;
+    flex-direction: column;
+    
+    /* gap: 80px; */
+
+}
+
+.first-image {
+    width: 500px;
+    height:281px;
+    object-fit: cover;
+    display: block;
+    margin: 0;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.row {
+    display: flex;
+    gap: 4rem;
+  }
+
+  .first-el-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30%;
+    padding: 1rem;
+  }
+
+  #row-2-el-1 {
+    background-color: white;
+    color: #000;
+  }
+.reverse{
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+}
+.white-text-box{
+width: 40%;
+height: 250px;
+background-color:white;
+color:#000;
+font-size: 16px;
+padding: 20px 5px;
+}
+.text-head{
+  font-size: 22px;
+  
+}
+.sec-el-row{
+
+  height: 280px;
+}
+  .sec-el-of-row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 55%;
+    height: 311px;
+    padding: 1rem;
+  }
+.second-img{
+  width: 152%;
+  height: 250px;
+}
+#with-line {
+  border-top: 1px solid white;
+  margin-top: 1px;
+}
+
+.box.dark p {
+  color: #dcdcdc;
+}
+
+.box.light {
+  background: #fff;
+  color: #000;
+  justify-content: space-between;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+}
+
+h2, h3 {
+  margin: 0 0 16px;
+  text-transform: uppercase;
+  letter-spacing: .02em;
+  font-weight: 700;
+}
+
+.bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+
+.more-link {
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+}
+
+.line-short {
+  width: 48px;
+  height: 2px;
+  background: #000;
+  border-radius: 1px;
+  display: inline-block;
+}
+.more{
+  display: flex;
+  justify-content: space-between;
+}
+.bottom_row__img{
+    width: 80%;
+    height:80%;
+    object-fit: cover;
+    display: block;
+}
+
+
+    .third-section{
+    background: white;
+    color: black;
+    padding: 40px 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+
+}
+
+
+
+.white-text-box .line {
+  height: 1px;
+  width: 100%;
+  background:black;
+  opacity: 0.5;
+  margin-bottom: 10px;
+}
+
+.heading {
+  padding-bottom: 30px;
+}
+
+.main-text{
+  padding-bottom: 15px;
+}
+
+.black-text-box{
+  background: #000;
+  color: white;
+  margin-top: 100px;
+  padding: 30px;
+}
+
+.right-side-colomn{
+  display: flex;
+  flex-direction: column;
+}
+
+.img_box{
+  display: flex;
+  flex-direction: column;
+}
+
+img{
+  width: 100%;
+  height: 100%;
+}
