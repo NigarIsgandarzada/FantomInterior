@@ -6,15 +6,18 @@
   padding: 0;
 }
 
+.container {
+  width: 100%;
+  padding-inline: 75px;
+}
+
 body {
   font-family: "Rajdhani", sans-serif;
   width: 100vw;
   height: 100vh;
 }
 
-.container {
-  padding: 0 15px;
-}
+
 
 /* First Page*/
 
@@ -26,6 +29,18 @@ main {
   position: relative;
   padding: 20px 40px;
 
+}
+
+.second-section {
+  background-color: black;
+}
+
+.black__text-box {
+  display: flex;
+  width: 870px;
+  flex-direction: column;
+  gap: 70px;
+  color: white;
 }
 
 .title-row {
@@ -172,15 +187,6 @@ main {
   width: 100%;
 }
 
-.container {
-  background: black;
-  color: white;
-  padding: 80px 24px;
-  display: flex;
-  flex-direction: column;
-  margin: 0;
-  width: 100%;
-}
 
 .first-image {
   width: 500px;
