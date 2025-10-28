@@ -4,6 +4,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+    font-family: "Rajdhani", sans-serif;
 }
 
 .container {
@@ -11,33 +12,19 @@
   padding-inline: 75px;
 }
 
-body {
-  font-family: "Rajdhani", sans-serif;
-  width: 100vw;
-  height: 100vh;
-}
-
 
 
 /* First Page*/
 
-main {
-  width: 100%;
-}
-
 .first-section {
   position: relative;
-  padding: 20px 40px;
+  padding-bottom: 30px;
 
-}
-
-.second-section {
-  background-color: black;
 }
 
 .black__text-box {
   display: flex;
-  width: 870px;
+  width: 675px;
   flex-direction: column;
   gap: 70px;
   color: white;
@@ -49,6 +36,7 @@ main {
   align-items: center;
   border-top: 2px solid black;
   border-bottom: 2px solid black;
+  margin-top: 30px;
 }
 
 .main-title {
@@ -81,7 +69,7 @@ main {
 
 .content {
   display: flex;
-  margin-block: 30px;
+  justify-content: space-between;
 }
 
 .left-side {
@@ -185,49 +173,65 @@ main {
 
 .second-section {
   width: 100%;
+  background: #000;
 }
 
 
 .first-image {
-  width: 500px;
-  height: 281px;
+  width: 480px;
+  height: 250px;
   object-fit: cover;
   display: block;
   margin: 0;
 }
 
+.second__section-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 44px 0;
+  gap: 70px;
+}
+
 .row {
   display: flex;
-  gap: 4rem;
+  gap: 50px;
 }
 
 .reverse {
   display: flex;
-  flex-direction: row;
-  gap: 70px;
+  justify-content: center;
+  width: 100%;
+  gap: 50px;
+
 }
 
 .white-text-box {
-  width: 40%;
-  height: 250px;
   background-color: white;
   color: #000;
   font-size: 16px;
-  padding: 20px 5px;
+  padding: 20px 30px;
 }
 
 .text-head {
   font-size: 22px;
+      padding-bottom: 25px;
+}
 
 }
 
-.sec-el-of-row {
+.black-text-box {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   width: 55%;
   height: 311px;
   padding: 1rem;
+  background: #000;
+  color: white;
+  margin-top: 100px;
+  padding: 30px;
 }
 
 #with-line {
@@ -236,13 +240,14 @@ main {
 }
 
 .second-img {
-  width: 152%;
+  width: 675px;
   height: 250px;
 }
 
 #with-line {
   border-top: 1px solid white;
   margin-top: 1px;
+  padding-top: 10px;
 }
 
 
@@ -251,12 +256,14 @@ h3 {
   margin: 0 0 16px;
   text-transform: uppercase;
   letter-spacing: .02em;
-  font-weight: 700;
+  
 }
 
 .more {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 20px;
+  margin-top: 45px;
 }
 
 .more-link {
@@ -273,6 +280,7 @@ h3 {
   background: #000;
   border-radius: 1px;
   display: inline-block;
+  margin-top: 10px;
 }
 
 
@@ -286,6 +294,10 @@ h3 {
 
 }
 
+.white-text-box {
+  width: 480px;
+  height: 250px;
+}
 
 
 .white-text-box .line {
@@ -302,13 +314,6 @@ h3 {
 
 .main-text {
   padding-bottom: 15px;
-}
-
-.black-text-box {
-  background: #000;
-  color: white;
-  margin-top: 100px;
-  padding: 30px;
 }
 
 .right-side-colomn {
