@@ -15,22 +15,13 @@
 /* First Page*/
 
 .first-section {
-  position: relative;
   padding-bottom: 30px;
 
 }
 
-.black__text-box {
-  display: flex;
-  width: 675px;
-  flex-direction: column;
-  gap: 70px;
-  color: white;
-}
 
 .title-row {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   border-top: 2px solid black;
   border-bottom: 2px solid black;
@@ -51,9 +42,7 @@
   border: 2px solid black;
   padding-block: 30px;
   border-top: none;
-  /* üst sərhədi silir */
   border-bottom: none;
-  /* alt sərhədi silir */
 }
 
 .logo {
@@ -68,11 +57,10 @@
 
 .content {
   display: flex;
-  justify-content: space-between;
 }
 
 .left-side {
-  max-width: 500px;
+max-width: 500px;
 
 }
 
@@ -109,7 +97,6 @@
   font-family: "Rajdhani", sans-serif;
   font-size: 18px;
   padding-right: 50px;
-  margin-bottom: 0;
 
 }
 
@@ -119,7 +106,6 @@
     flex-direction: row;
   }
 }
-
 
 
 .right-side {
@@ -173,13 +159,20 @@
   background: #000;
 }
 
+.black__text-box {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+  gap: 70px;
+  color: white;
+}
+
 
 .first-image {
   width: 480px;
   height: 250px;
   object-fit: cover;
   display: block;
-  margin: 0;
 }
 
 .second__section-wrapper {
@@ -278,7 +271,6 @@ h3 {
   height: 1px;
   background: #000;
   border-radius: 1px;
-  display: inline-block;
   margin-top: 10px;
 }
 
@@ -319,10 +311,7 @@ h3 {
 }
 
 .mission-content p {
-  font-size: 15px;
-  line-height: 26px;
-  color: black;
-  margin-bottom: 20px;
+  margin-bottom: 31px;
 }
 
 .read-more {
@@ -397,15 +386,14 @@ h3 {
 }
 
 .fourth-section-wrapper img {
-  width: 800px;
   height: 400px;
+  width: 100%;
 }
 
 /* Text Section */
 
 .portfolio-text {
   max-width: 600px;
-  margin-bottom: 40px;
   color: white;
   padding: 25px;
   display: flex;
@@ -439,7 +427,6 @@ h3 {
 
 .read-more-portfolio {
   text-decoration: none;
-  color: #000;
 }
 
 .line {
@@ -479,8 +466,6 @@ h3 {
 /* FOOTER */
 
 .fantom__footer-section {
-  background: white;
-  color: #000;
   padding: 0 75px;
 
 }
@@ -489,20 +474,18 @@ h3 {
   display: flex;
   flex-direction: column;
   gap: 40px;
-  padding-top: 20px;
   margin-bottom: 40px;
   margin-top: 40px;
 }
 
 .footer__top-wrapper {
   display: flex;
-  gap: 180px;
+  justify-content: space-between;
+  
 }
 
-
 .footer-column-connect {
-  margin-right: 310px;
-  gap: 20px;
+  align-items: center;
   border-top: 1px solid black;
 }
 
@@ -513,10 +496,10 @@ h3 {
 
 }
 
-.footer-column p {
+.footer-column-connect p {
   font-size: 16px;
   color: black;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .btn-arrow{
@@ -535,7 +518,7 @@ h3 {
   background: #000;
   color: #fff;
   border: 1px solid black;
-  padding: 9px 16px;
+  padding: 8px 22px;
   margin-left: -4px;
   font-weight: 600;
 }
@@ -583,7 +566,7 @@ h3 {
   padding-right: 90px;
   margin-bottom: 10px;
 }
-
+/* focus on this problem */
 .footer-column ul li::after {
   content: "";
   position: absolute;
